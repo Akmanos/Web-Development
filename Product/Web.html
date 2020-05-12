@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Google Map</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="brand">
+            <img src="https://freesvg.org/img/1534617208.png" alt="Logo" id="header-img" class="logo">
+            <h1 class="title">Nate's</h1>
+        </div>
+        <i class="fas fa-bars fa-2x hamburger-menu" id="hamburger-menu"></i>
+        <nav id="nav-bar" class="main-nav">
+            <ul>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <video src="https://storage.coverr.co/videos/CDgEXD003MFJe1FRAeGpWWD00I9SmppHYp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjExNDMyN0NEOTRCMUFCMTFERTE3IiwiaWF0IjoxNTg5MTY2ODIyfQ.1GXreZM6XEaZqA7cIjTqsA-vnbHiR9O2OWnFGRXCzt0" id="video" class="video"
+            autoplay muted loop></video>
+    </section>
+    <main>
+        <section class="subscribe">
+            <form id="form" class="subscribe-form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email" class="label">Subscribe if you would like to receive news and special offers</label>
+                <div class="input-group">
+                    <input type="email" name="email" id="email" class="email" placeholder="Write your email" required>
+                    <input type="submit" value="Subscribe" id="submit" class="submit">
+                </div>
+            </form>
+        </section>
+        <section id="about">
+            <h2 class="heading">Why you should choose us?</h2>
+            <div class="container">
+                <div class="about-container">
+                    <i class="far fa-thumbs-up fa-5x about-icon"></i>
+                    <h2 class="about-title">Best Quality</h2>
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, optio deleniti! Laborum quasi magnam aliquam nemo optio quae veritatis voluptatum dolorem neque quidem magni blanditiis quo, cupiditate beatae ullam nesciunt!</p>
+                </div>
+                <div class="about-container">
+                    <i class="fas fa-truck fa-5x about-icon"></i>
+                    <h2 class="about-title">Fast Delivery</h2>
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, optio deleniti! Laborum quasi magnam aliquam nemo optio quae veritatis voluptatum dolorem neque quidem magni blanditiis quo, cupiditate beatae ullam nesciunt!</p>
+                </div>
+                <div class="about-container">
+                    <i class="far fa-credit-card fa-5x about-icon"></i>
+                    <h2 class="about-title">Safe Transaction</h2>
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, optio deleniti! Laborum quasi magnam aliquam nemo optio quae veritatis voluptatum dolorem neque quidem magni blanditiis quo, cupiditate beatae ullam nesciunt!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2 class="heading">Choose product</h2>
+            <div class="container">
+                <div class="product-container">
+                    <img src="https://images.techhive.com/images/article/2016/06/hardware-hacker-100664901-primary.idge.jpg" alt="Rose Type One" class="product-image">
+                    <h2 class="product-title">Circuits One</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt omnis quae officiis praesentium saepe exercitationem at vel, sint commodi aut mollitia voluptates veniam architecto beatae, voluptas error nulla. Eligendi.</p>
+                    <p class="product-price">Price: $20</p>
+                    <button class="product-select">Select</button>
+                </div>
+                <div class="product-container">
+                    <img src="https://pixnio.com/free-images/objects/electronics-devices/computer-components-pictures/computer-chips-circuits-boards-725x544.jpg" alt="Rose Type Two" class="product-image">
+                    <h2 class="product-title">Chip Two</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt omnis quae officiis praesentium saepe exercitationem at vel, sint commodi aut mollitia voluptates veniam architecto beatae, voluptas error nulla. Eligendi.</p>
+                    <p class="product-price">Price: $49</p>
+                    <button class="product-select">Select</button>
+                </div>
+                <div class="product-container">
+                    <img src="https://www.sciencealert.com/images/2019-12/processed/comp-chip-quant_1024.jpg" alt="Rose Type Three" class="product-image">
+                    <h2 class="product-title">Chip Three</h2>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt omnis quae officiis praesentium saepe exercitationem at vel, sint commodi aut mollitia voluptates veniam architecto beatae, voluptas error nulla. Eligendi.</p>
+                    <p class="product-price">Price: $20</p>
+                    <button class="product-select">Select</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact">
+            <h2 class="heading">Contact us</h2>
+            <div class="contact-container">
+                <p class="contact-description">Feel free to contact us over the phone or by e-mail. You are also welcome to visit our rose garden from Monday to Friday between 8:00a.m. - 06:00p.m..</p>
+                <div class="right">
+                    <div class="contact-details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <p>23, Lorem Ipsum Avenue</p>
+                            <p>85-825, City, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <p>+48 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fas fa-at"></i>
+                        <div>
+                            <p>mail@loremipsum.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="map"></div>
+
+    <footer class="footer">
+        <p class="copyright">Written and coded by
+            <a href="https://github.com/Akmanos" target="_blank">Nathaniel Taylor</a>
+        </p>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAjnl8S7jBlTWLDPefsbbLlv_oqY1tFmI&callback=initMap" async defer></script>
+
+</body>
+
+</html>
